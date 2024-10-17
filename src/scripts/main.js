@@ -21,7 +21,7 @@ document.addEventListener('click', (e) => {
     e.clientY,
     wall.offsetTop,
     spider.offsetHeight,
-    wall.clientWidth,
+    wall.clientHeight,
     wall.clientTop,
   );
 });
