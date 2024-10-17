@@ -1,0 +1,2 @@
+function t(t,e,l,n,c){var i=null;return i=t-e-l/2-c+"px",t<e+c+l/2&&(i="0px"),t>e+n+c-l/2&&(i=n-l+"px"),i}document.addEventListener("click",function(e){var l=document.querySelector(".spider"),n=document.querySelector(".wall");e.target.closest(".wall")&&(l.style.left=t(e.clientX,n.offsetLeft,l.offsetWidth,n.clientWidth,n.clientLeft),l.style.top=t(e.clientY,n.offsetTop,l.offsetHeight,n.clientWidth,n.clientTop))});
+//# sourceMappingURL=index.c69d3e2f.js.map
